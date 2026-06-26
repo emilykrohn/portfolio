@@ -1,0 +1,14 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.project {
+    flex: 1;
+    max-width: 33.33%;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
