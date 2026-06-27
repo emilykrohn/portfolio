@@ -1,4 +1,13 @@
-img {
+.languageLearningImage img {
     max-width: 50%;
     height: auto;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.imageGroup {
+    display: flex;
+    flex-direction: row;
 }
