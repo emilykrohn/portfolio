@@ -16,3 +16,20 @@
     margin: 5% 10% 5% 10%;
     text-align: center;
 }
+
+h1 {
+    font-family: monospace;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+p {
+    font-size: 18px;
+    font-family: monospace;
+}
+
+body {
+    background-color: rgb(190, 188, 252);
+}
