@@ -3,6 +3,12 @@
     height: auto;
 }
 
+.dimensionPrisonImage {
+    max-width: 50%;
+    height: auto;
+    margin: 2%;
+}
+
 .image img {
     max-width: 100%;
 }
