@@ -24,6 +24,16 @@
     text-align: center;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 1%;
+}
+.navbarItem {
+    margin: 1%;
+}
+
 img {
     max-width: 80%;
     height: auto;
