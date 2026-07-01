@@ -23,6 +23,17 @@
     text-align: center;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 1%;
+}
+
+.navbarItem {
+    margin: 1%;
+}
+
 h1 {
     font-family: monospace;
 }
