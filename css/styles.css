@@ -4,10 +4,14 @@
 }
 
 .project {
+    transform: scale(1.0);
     flex: 1;
     max-width: 33.33%;
 }
 
+.project:hover {
+    transform: scale(1.05);
+}
 .about {
     display: flex;
     flex-direction: row;
