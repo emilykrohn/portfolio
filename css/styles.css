@@ -12,10 +12,17 @@
 .project:hover {
     transform: scale(1.05);
 }
+
 .about {
     display: flex;
     flex-direction: row;
     margin: 5%
+}
+
+button {
+    border-radius: 7px;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 .section {
