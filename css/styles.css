@@ -55,6 +55,22 @@ button {
     margin: 5%;
 }
 
+.contactItem {
+    width: 50%;
+}
+
+.contactItemText {
+    text-align: left;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
 img {
     max-width: 80%;
     height: auto;
