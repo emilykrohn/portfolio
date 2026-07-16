@@ -14,8 +14,7 @@
 }
 
 .about {
-    display: flex;
-    flex-direction: row;
+    text-align: center;
     margin: 5%
 }
 
@@ -49,6 +48,11 @@ button {
 .aboutImage {
     max-width: 30%;
     height: auto;
+}
+
+.contact {
+    text-align: center;
+    margin: 5%;
 }
 
 img {
