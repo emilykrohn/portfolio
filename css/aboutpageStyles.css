@@ -1,0 +1,23 @@
+/* ABOUT PAGE */
+.about {
+    margin: 5%
+}
+
+.aboutImage {
+    max-width: 30%;
+    height: auto;
+}
+
+/* ABOUT PAGE CONTACT SECTION */
+.contact {
+    text-align: center;
+    margin: 5%;
+}
+
+.contactItem {
+    width: 50%;
+}
+
+.contactItemText {
+    text-align: left;
+}

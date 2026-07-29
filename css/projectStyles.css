@@ -1,37 +1,11 @@
-.languageLearningImage img {
-    max-width: 50%;
-    height: auto;
+/* || GENERAL STYLES */
+body {
+    background-color: rgb(190, 188, 252);
 }
 
-.dimensionPrisonImage {
-    max-width: 50%;
-    height: auto;
-    margin: 2%;
-}
-
-.image img {
-    max-width: 100%;
-}
-
-.imageGroup {
-    display: flex;
-    flex-direction: row;
-}
-
-.center {
-    margin: 5% 10% 5% 10%;
-    text-align: center;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    margin: 1%;
-}
-
-.navbarItem {
-    margin: 1%;
+p {
+    font-size: 18px;
+    font-family: monospace;
 }
 
 h1 {
@@ -42,11 +16,23 @@ h2 {
     font-family: monospace;
 }
 
-p {
-    font-size: 18px;
-    font-family: monospace;
+/* || PROJECT IMAGES */
+.image img {
+    max-width: 100%;
 }
 
-body {
-    background-color: rgb(190, 188, 252);
+.imageGroup {
+    display: flex;
+    flex-direction: row;
+}
+
+.languageLearningImage img {
+    max-width: 50%;
+    height: auto;
+}
+
+.dimensionPrisonImage {
+    max-width: 50%;
+    height: auto;
+    margin: 2%;
 }

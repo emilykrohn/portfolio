@@ -39,22 +39,6 @@ button {
     font-size: 15px;
 }
 
-/* || PROJECT ICONS */
-.row {
-    display: flex;
-    flex-direction: row;
-}
-
-.project {
-    transform: scale(1.0);
-    flex: 1;
-    max-width: 33.33%;
-}
-
-.project:hover {
-    transform: scale(1.05);
-}
-
 /* NAVBAR */
 .navbar {
     display: flex;
@@ -65,30 +49,6 @@ button {
 
 .navbarItem {
     margin: 1%;
-}
-
-/* ABOUT PAGE */
-.about {
-    margin: 5%
-}
-
-.aboutImage {
-    max-width: 30%;
-    height: auto;
-}
-
-/* ABOUT PAGE CONTACT SECTION */
-.contact {
-    text-align: center;
-    margin: 5%;
-}
-
-.contactItem {
-    width: 50%;
-}
-
-.contactItemText {
-    text-align: left;
 }
 
 /* GENERAL */
