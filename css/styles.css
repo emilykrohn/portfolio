@@ -47,7 +47,8 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    margin: 1%;
+    background-color: rgb(127, 125, 168);
+    width: 100%;
 }
 
 .navbarItem {
