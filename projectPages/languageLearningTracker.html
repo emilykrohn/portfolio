@@ -38,17 +38,23 @@
     <h1>Language Learning Tracker</h1>
     <p>Keep track of the amount of time you spend learning a language each day.</p>
     <div class="languageLearningImage center">
+        <h2>Overview</h2>
         <img src="../images/LanguageLearningTracker/LanguageLearningTracker02.png" alt="Language Learning Tracker Homepage">
-        <p>This web application lets the user keep track of the amount of time they spend learning a language each day. It displays the hours and minutes for each month at the bottom. The user also has the option to connect to anki if they use that application. This will help the application know how many flashcards they reviewed per day.</p>
+        <p>This web application helps users track the time they spend learning a language each day, with monthly totals displayed in hours and minutes. Users can also connect their Anki account to automatically track flashcard review counts, or enter them manually if they prefer not to link the app.</p>
     </div>
     <div class="languageLearningImage center">
+        <h2>Core Functionality</h2>
         <img src="../images/LanguageLearningTracker/LanguageLearningTrackerTime.png" alt="Language Learning Tracker Update Time">
-        <p>The day the user selects becomes blue and they are able to input the amount of time they spent for each category to the right. The total hours and minutes updates when the user presses the save button. This data is saved to local storage so the next time they open the application the data will still be there. There is also the option to manually put in the amount of flashcards reviewed if the user can’t get anki to connect. Otherwise it will update automatically when the save button is pressed.</p>
+        <p>Selecting a date highlights it in blue, allowing the user to input time spent across different learning categories. Once the user saves their entry, the total hours and minutes update automatically, and the data is stored in local storage so their progress persists between sessions. If Anki isn't connected, users can manually log their flashcard count for the day instead.</p>
     </div>
     <div class="languageLearningImage center">
+        <h2>Feedback and Data Persistence</h2>
         <img src="../images/LanguageLearningTracker/LanguageLearningTracker01.png" alt="Language Learning Tracker Display Time">
-        <p>The date selected by the user will turn green after data is saved. The month’s total hours and minutes will be updated. The correct amount of time will be displayed for each day when clicked on.</p>
+        <p>After saving, the selected date turns green to indicate that data has been recorded, and the month's total hours and minutes update accordingly. Clicking on any previously logged day displays the exact time recorded for that session.</p>
     </div>
-    <h1>Challenges</h1>
+    <div class="languageLearningImage center">
+      <h2>Challenges</h2>
+      <p>One of the biggest challenges was integrating the Anki API and learning how to effectively use local storage for data persistence. Building a dynamic calendar that correctly calculated the number of days in each month and aligned them with the right day of the week also proved tricky. Additionally, implementing conditional color-coding, such as highlighting a day blue while it's being edited and green once data is saved, required careful state management to keep the UI accurate and responsive.</p>
+    </div>
 </body>
 </html>
