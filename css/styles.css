@@ -38,6 +38,11 @@ button {
     border-radius: 7px;
     font-family: monospace;
     font-size: 15px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0);
+}
+
+button:hover {
+    transform: scale(1.05);
 }
 
 /* NAVBAR */
@@ -65,8 +70,4 @@ button {
 .section {
     max-width: 75%;
     margin: auto;
-}
-
-button {
-    box-shadow: 5px 5px 7px rgba(0, 0, 0);
 }
