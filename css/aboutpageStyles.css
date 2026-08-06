@@ -1,11 +1,21 @@
 /* ABOUT PAGE */
 .about {
-    margin: 5%
+    margin: 5%;
+    display: flex;
 }
 
 .aboutImage {
-    max-width: 30%;
+    margin-top: 100px;
+    max-width: 50%;
     height: auto;
+}
+
+.aboutCenter {
+    text-align: center;
+}
+
+.aboutItem {
+    flex: 1;
 }
 
 /* ABOUT PAGE CONTACT SECTION */
